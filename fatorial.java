@@ -6,9 +6,11 @@ public class fatorial {
 
 		int resultado = 1;
 
-		for(int i = 2; i <= n; i++)
-			resultado*= i;
+		if (n != 0) {
 
+			for(int i = 2; i <= n; i++)
+				resultado*= i;
+		}
 		return resultado;
 	}
 }
